@@ -1,0 +1,79 @@
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 510px) {
+	.intro_title{
+		font-size: 24px;
+	}
+	.intro_descr{
+		font-size: 12px;
+	}
+	.s_works .portfolio_nav{
+		flex-direction: column;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	.portfolio_nav li{
+		margin-bottom: 15px;
+	}
+	section.s_works .portfolio_item{
+		margin: 10px 0 10px 50px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	section{
+		padding: 50px 0;
+	}
+	.s_title{
+		font-size: 16px;
+	}
+	.s_descr{
+		font-size: 10px;
+	}
+	.s_resume .my_job{
+		text-align: center;
+		border-right: none;
+	}
+	.s_resume .my_studies{
+		text-align: center;
+		border-right: none;
+	}
+	.s_resume h3{
+		margin: 10px 0;
+	}
+	.s_resume .resume_icon{
+		margin-bottom: 10px;
+	}
+	.s_works .portfolio_nav{
+		justify-content: space-around;
+	}
+	.portfolio_nav li{
+		font-size: 10px;
+	}
+	.s_works .portfolio_item{
+		float: none;
+		margin: 10px 0 10px 80px;
+	}
+	#scills h3{
+		left:20%;
+	}
+	#scills i{
+		left:10%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
